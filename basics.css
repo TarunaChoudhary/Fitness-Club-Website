@@ -1,0 +1,53 @@
+body{
+	padding-top: 50px;
+	line-height: 1.6;
+}
+#hrzntl{
+	border-bottom: 1px solid black;
+}
+
+.navbar-inverse .navbar-brand{
+	color: white;
+}
+
+.head-img{
+
+	background-image: url("https://images.unsplash.com/photo-1490645935967-10de6ba17061?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1035&q=80");
+    height:500px;
+    background-size: cover;
+    background-position: center;
+}
+
+.a-tag{
+	color: inherit;
+}
+.image1{
+	background-image: url("https://cdn.shopify.com/s/files/1/1950/1891/articles/Untitled_design_36.png?v=1564364222");
+	height: 245px;
+	 background-size: cover;
+  background-position: center;
+}
+.footer1{
+	padding:10px 30px 40px 30px;
+	background-color: #eee;
+	
+}	
+.footer1 a{
+	color:inherit;
+
+} 
+.footer1 a:hover{
+	color: orange;
+	text-decoration: none;
+}
+hr.foot-hr{
+
+	border: .8px solid orange;
+}
+.btn-sign{
+	background-color: orangered;
+	color: white;
+}
+.btn-sign:hover{
+	background-color: tomato;
+}

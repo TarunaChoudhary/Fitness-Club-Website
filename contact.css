@@ -1,0 +1,37 @@
+body{
+    padding-top: 90px;
+}
+a{
+	text-decoration: none;
+	color:white;
+	
+}
+.footer1{
+	padding:10px 30px 40px 30px;
+	margin: 0px;
+	background-color: #eee;
+
+}	
+.footer1 a{
+	color:inherit;
+} 
+.footer1 a:hover{
+	color: orange;
+	text-decoration: none;
+}
+hr.foot-hr{
+
+	border: .8px solid orange;
+}
+.btn-sign{
+	background-color: orangered;
+	color: white;
+}
+.btn-sign:hover{
+	background-color: tomato;
+}
+.col-lg-6:nth-of-type(2)
+{
+	background-color: #eee;
+	font-size: 25px;
+}

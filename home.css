@@ -1,0 +1,264 @@
+body{
+line-height: 1.6;
+margin:0px;
+padding-top: 50px;
+background-image: url("https://images.unsplash.com/photo-1434719079929-f61498a4828e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1053&q=80");
+	 background-position: center;background-size: cover;
+ background-attachment: fixed;
+}
+.dot {
+  cursor: pointer;
+  height: 20px;
+  width: 20px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.dot:hover{
+	background-color: grey;
+}
+.change1{
+	color: white;
+	font-size: 35px;
+}
+
+
+
+.welcome-div0{
+	background-color: rgb(35,35,35);
+	color:white;
+	font-family: bahnschrift;
+	padding: 100px 150px 100px 150px;
+
+}
+.welcome-div1{
+	padding-top: 4.5%; 
+}
+.welcome-div1 h2{
+	color:orangered;
+	font-size: 45px;
+}
+.animate-line{
+	height: 5px;
+
+	background-color: orangered;
+}
+.welcome-div2{
+	background-image: url("https://images.unsplash.com/photo-1518644961665-ed172691aaa1?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80");
+	background-size: cover;
+	background-position: center;
+	height: 400px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+
+}
+a{
+	text-decoration: none;
+	color:white;
+}
+p{
+	font-size: 15px;
+}
+.image1{
+	border-radius: 50%;
+	height:100px;
+	width:100px;
+}
+.trainers{
+	padding-top:70px;
+	padding-left:65px;
+	padding-bottom: 70px;
+	padding-right: 65px;
+}
+.trainer-div{
+	color: grey;
+}
+#train-hr{
+	border: 1px solid orangered;
+}
+.train-name{
+	color: white;
+}
+.trainer1{
+	width:270px;
+	height:400px;
+	background-image: url("https://colorlib.com/preview/theme/robust/images/trainer-1.jpg");
+	background-size: cover;
+	position: relative;
+	background-position: center;
+	
+}
+.trainer2{
+	width:270px;
+	height:400px;
+	background-image: url("https://colorlib.com/preview/theme/robust/images/trainer-2.jpg");
+	background-size: cover;
+	position: relative;
+	background-position: center;
+	
+}
+.trainer3{
+	width:270px;
+	height:400px;
+	background-image: url("https://colorlib.com/preview/theme/robust/images/trainer-3.jpg");
+	background-size: cover;
+	position: relative;
+	background-position: center;
+
+}
+.trainer4{
+	width:270px;
+	height:400px;
+	background-image: url("https://colorlib.com/preview/theme/robust/images/trainer-4.jpg");
+	background-size: cover;
+	position: relative;
+	background-position: center;
+
+}
+h5{
+	color:white;
+	font-size: 20px;
+}
+
+
+
+
+.jumbotron{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+
+
+.register-btn{
+	background-color: rgba(224,255,255,.3);
+	color:orangered;
+	font-size: 30px;
+	margin-left: 40px;
+	margin-top: 50px;
+}
+.a-bar{
+	font-size: 25px;
+}
+.achieve-bar{
+	color:orangered;
+}
+
+.footer1{
+	padding:10px 30px 40px 30px;
+	margin: 0px;
+	background-color: #eee;
+
+}	
+.footer1 a{
+	color:inherit;
+} 
+.footer1 a:hover{
+	color: orange;
+	text-decoration: none;
+}
+hr.foot-hr{
+
+	border: .8px solid orange;
+}
+.btn-sign{
+	background-color: orangered;
+	color: white;
+}
+.btn-sign:hover{
+	background-color: tomato;
+}
+.register-box{
+	 background-blend-mode: multiply;
+	background-color: rgba(0,0,0,.6);
+	background-image: url("https://images.unsplash.com/photo-1521805103424-d8f8430e8933?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+       background-size: cover;
+    background-position: center;
+     font-size: 50px;
+	margin: 0px;
+	border-radius: 50%;
+	padding-top:120px;
+	width: 380px;
+	height: 350px;
+}
+.register-box:hover{
+	border: 2px solid black;
+	background-blend-mode: multiply;
+	background-color: rgba(0,0,0,.3);
+}
+.circle-btns{
+	padding-top: 15%;
+	padding-left: 220px;
+	
+}
+.first-bar{
+	height: 350px;
+	background-color: rgba(0, 0, 0, 0.6);
+	 background-blend-mode: multiply;
+}
+.first-bar:nth-of-type(1){
+	background-image: url("https://images.unsplash.com/photo-1585681614545-cd8c7b9d92b3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.first-bar:nth-of-type(2){
+	background-image: url("https://images.unsplash.com/photo-1563053764-85dbf278c408?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80.jpg");
+    background-size: cover;
+    background-position: center;
+}.first-bar:nth-of-type(3){
+	background-image: url("https://images.unsplash.com/photo-1518843875459-f738682238a6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1026&q=80.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.nested-block{
+	
+	height: 350px;
+	color: white;
+	margin:0px;
+	padding:15%;
+
+	font-size: 20px;
+}
+.first-bar:hover{
+	border-bottom: 3px solid orangered;
+	 background-color: rgba(0, 0, 0, 0.9);
+}
+.second-bar{
+	height: 350px;
+	background-color: rgba(0, 0, 0, 0.7);
+}
+.second-bar:hover{
+	border-bottom: 4px solid orangered;
+	 background-color: rgba(0, 0, 0, 0.9);
+}
+.second-bar:nth-of-type(1){
+	background-image: url("https://images.unsplash.com/photo-1578762560042-46ad127c95ea?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80.jpg");
+    background-size: cover;
+    background-position: center;
+     background-blend-mode: multiply;
+
+}
+.second-bar:nth-of-type(2){
+	background-image: url("https://images.unsplash.com/photo-1526405098960-78ccf7a1dbd6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80.jpg");
+    background-size: cover;
+    background-position: center;
+     background-blend-mode: multiply;
+
+}
+.second-bar:nth-of-type(3){
+	background-image: url("https://images.unsplash.com/photo-1576511746135-ad5faf5b85be?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80.jpg");
+    background-size: cover;
+    background-position: center;
+     background-blend-mode: multiply;
+
+}
+.second-bar:nth-of-type(4){
+	background-image: url("https://images.unsplash.com/photo-1585507995394-bed58c7bb058?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80.jpg");
+    background-size: cover;
+    background-position: center;
+     background-blend-mode: multiply;
+
+}

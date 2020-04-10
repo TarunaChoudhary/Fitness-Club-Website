@@ -1,0 +1,52 @@
+ body{padding-top: 100px;}
+a{
+  text-decoration: none;
+  color:white; 
+}
+.head-img{
+  background-size: cover;
+background-position: center;}
+.reg-form{
+  height: 600px;
+  background-blend-mode: multiply;
+  background-color: rgba(0,0,0,.7);
+  background-image: url("https://images.unsplash.com/photo-1507398941214-572c25f4b1dc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=966&q=80");
+}
+.reg1{
+  color:white;
+  padding-top: 100px;
+
+  
+}
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+input:focus{border: 1px solid cyan;}
+.footer1{
+  padding:10px 30px 40px 30px;
+  margin: 0px;
+  background-color: #eee;
+} 
+.footer1 a{
+  color:inherit;
+} 
+.footer1 a:hover{
+  color: orange;
+  text-decoration: none;
+}
+hr.foot-hr{
+  border: .8px solid orange;
+}
+.btn-sign{
+  background-color: orangered;
+  color: white;
+}
+.btn-sign:hover{
+  background-color: tomato;
+}

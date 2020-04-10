@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+   <!-- for bootstrap styled website to be responsive on mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>REGISTER NOW|THE FITNESS CLUB</title>
+  <!-- links for icons used  -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- link used in styling the icons -->
+  <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+  <!-- link for css file -->
+  <link rel="stylesheet" type="text/css" href="registerpage.css">
+  <!-- link for bootstrap cdn 3.3.7 -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+<script type="text/javascript">
+
+    var i=0;
+    var images=[];
+    var times=3000;
+    /*inserting images*/
+    images[0]='https://a-static.besthdwallpaper.com/fruits-salad-wallpaper-1600x600-11012_84.jpg';
+    images[1]='https://www.thezenith.com.au/wp-content/uploads/2016/06/Hero-Image-1600x600PX-150DPI-Experience.jpg';
+    images[2]='https://www.thezenith.com.au/wp-content/uploads/2016/06/Masonry-1200x600px-150DPI-Experience-Wellness-and-Greenspace.jpg';
+
+     /*FUCTION TO LOAD IMAGES*/
+   function changeImg()
+   {
+     document.slide.src = images[i];
+      if(i < images.length-1){
+               i++;
+        } 
+     else{
+        i=0;
+      }
+      setTimeout("changeImg()",times); 
+    }
+    window.onload = changeImg; 
+    
+
+     </script>
+
+
+
+</head>
+<body>
+
+
+
+ <!-- code for navbar -->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <div class="navbar navbar-header">
+        <!-- code for hamburger button when width of the page is collapsed-->
+
+     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+         </button>
+     <a href="home.html" class="navbar-brand brand web-name"><i class="fab fa-wolf-pack-battalion" style="font-size:32px;"></i><b style="font-size: 20px; ">THE FITNESS CLUB</b></a>  
+    </div>
+      <div class="collapse navbar-collapse" id="bs-navbar">
+     <ul class="nav navbar-nav navbar-right">
+      <li><a href="blog.html">BLOG</a></li>
+      <li><a href="about.html">ABOUT</a></li> 
+        <li><a href="contact.html">CONTACT US</a></li> 
+      <button type="button" class="btn btn-default btn-info navbar-btn">Sign in</button>
+     </ul>
+      </div>
+    </div>
+</nav>
+
+
+<!-- code for looped slideshow of images -->
+<div class="slideshow-images">
+ <img name="slide"  width=100% height="400" class="head-img">
+ <div style="text-align:center" class="img-dot">
+  <span class="dot" onclick="changeImg(1)"></span> 
+  <span class="dot" onclick="changeImg(2)"></span> 
+  <span class="dot" onclick="changeImg(3)"></span> 
+ </div> 
+</div>   
+
+
+
+
+
+
+
+<!-- advertisement bar -->
+<div class="jumbotron" align="center">
+  <font size=7><b >CHOOSE YOUR PROGRAM</b></font><br>
+  <b style="font-size: 22px; color:cadetblue; padding:30px;">Our FITNESS CLUB experts can help you discover new training techniques and exercises that offer a dynamic and efficient full-body workout.</b>
+  <br><br>          
+  <a href="registerpage.html" class="btn btn-danger btn-lg img-rounded" ><b>REGISTER NOW</b></a>
+</div>
+
+
+
+<!--code for registeration box  -->
+<div class="container reg-form">
+  <div class="col-lg-12 reg1">
+<form class="form-horizontal">
+  <i class="fa fa-user" aria-hidden="true" align="center" style="padding-left:500px; font-size:42px; "></i><br><br><br>
+  <div class="form-group">
+     <label for="exampleInputName2" class="col-sm-2 control-label">Name</label>
+     <div class="col-sm-6">
+    <input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
+  </div><br><br><br>
+    <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+    <div class="col-sm-6">
+      <input type="email"  id="inputEmail3" placeholder="Email">
+    </div>
+  </div><br>
+  <div class="form-group">
+    <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+    <div class="col-sm-6">
+      <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <div class="checkbox">
+        <label>
+          <input type="checkbox"> Remember me
+        </label>
+      </div>
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <button type="submit" class="btn btn-sign">Sign in</button>
+    </div>
+  </div>
+</form>
+</div>
+</div>
+
+
+
+
+<!-- info bar at the bottom of the page with various links -->
+
+<div class="footer1 ">
+ <div class="row">
+   <div class="col-lg-3 col-md-1">
+    <h3>COMPANY</h3><hr class="foot-hr">
+       <a href="home.html">WORKOUT & PROGRAMS</a><br>
+       <a href="home.html">GYM AND EQUIPMENTS</a><br>
+        
+    </div>
+    <div class="col-lg-3 col-md-1">
+       <h3>BLOG</h3><hr class="foot-hr">
+        <a href="blog.html">FITNESS</a><br>
+        <a href="blog.html">HEALTH</a><br>
+       <a href="blog.html"> MEAL PLANS</a><br>
+    </div>
+    <div class="col-lg-3 col-md-1">
+      <h3>CONNECT</h3><hr class="foot-hr">
+        <a href="registerpage.html">MEMBERSHIP</a><br>
+        <a href="about.html">ABOUT</a><br>
+        <a href="contact.html">CONTACT US</a> <br>
+    </div>
+    <div class="col-lg-3 col-md-1">
+      <h3>NEWSLETTER</h3><hr class="foot-hr">
+      SIGN UP AND GET $10 OFF<br>
+      <form class="form-inline">
+  <div class="form-group">
+    <label class="sr-only" for="exampleInputEmail3">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Email">
+  </div>
+  <div class="form-group">
+    <label class="sr-only" for="exampleInputPassword3">Password</label>
+    <input type="text" class="form-control" id="exampleInputPassword3" placeholder="First Name">
+  </div><br>
+  <button type="submit" class="btn btn-sign">Sign Up</button>
+</form><br><br>
+<a href="a"><i class="fa fa-instagram " style="font-size:28px;"></i></a>   
+    <a href="registerpage.html"><i class="fa fa-facebook" style="font-size:28px; padding-left:20px;"></i></a>
+    <a href="registerpage.html"><i class="fa fa-pinterest "  style="font-size:28px; padding-left:25px;"></i></a>
+    <a href="registerpage.html">  <i class="fa fa-twitter" style="font-size:28px; padding-left:25px;"></i></a>
+    
+    </div>
+  </div>
+</div>
+
+<!-- bootsrap java cdn links -->
+<script src="https://code.jquery.com/jquery-3.4.1.js"integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+
+</body>
+</html>

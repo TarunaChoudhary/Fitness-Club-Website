@@ -232,31 +232,32 @@ hr.foot-hr{
 }
 .second-bar:hover{
 	border-bottom: 4px solid orangered;
-	 background-color: rgba(0, 0, 0, 0.9);
+/* 	 background-color: rgba(0, 0, 0, 0.9); */
+	background-color: rgb(250,235,215, 0.4);
 }
 .second-bar:nth-of-type(1){
-	background-image: url("https://images.unsplash.com/photo-1578762560042-46ad127c95ea?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80.jpg");
+/* 	background-image: url("https://images.unsplash.com/photo-1578762560042-46ad127c95ea?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80.jpg"); */
     background-size: cover;
     background-position: center;
      background-blend-mode: multiply;
 
 }
 .second-bar:nth-of-type(2){
-	background-image: url("https://images.unsplash.com/photo-1526405098960-78ccf7a1dbd6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80.jpg");
+/* 	background-image: url("https://images.unsplash.com/photo-1526405098960-78ccf7a1dbd6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80.jpg"); */
     background-size: cover;
     background-position: center;
      background-blend-mode: multiply;
 
 }
 .second-bar:nth-of-type(3){
-	background-image: url("https://images.unsplash.com/photo-1576511746135-ad5faf5b85be?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80.jpg");
+/* 	background-image: url("https://images.unsplash.com/photo-1576511746135-ad5faf5b85be?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80.jpg"); */
     background-size: cover;
     background-position: center;
      background-blend-mode: multiply;
 
 }
 .second-bar:nth-of-type(4){
-	background-image: url("https://images.unsplash.com/photo-1585507995394-bed58c7bb058?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80.jpg");
+/* 	background-image: url("https://images.unsplash.com/photo-1585507995394-bed58c7bb058?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80.jpg"); */
     background-size: cover;
     background-position: center;
      background-blend-mode: multiply;
